@@ -1,0 +1,10 @@
+-- Solution 20 - Difference between Triggers , Stored Procedures , Views and Functions
+
+Triggers : Trigger is a statement that a system executes automatically when there is any modification to the database. In a trigger, we first specify when the trigger is to be executed and then the action to be performed when the trigger executes. Triggers are used to specify certain integrity constraints and referential constraints that cannot be specified using the constraint mechanism of SQL. 
+
+Stored Procedures : Stored procedures are prepared SQL code that you save so you can reuse it over and over again. So if you have an SQL query that you write over and over again, save it as a stored procedure and call it to run it. You can also pass parameters to stored procedures so that the stored procedure can act on the passed parameter values.
+Stored Procedures are created to perform one or more DML operations on Database. It is nothing but the group of SQL statements that accepts some input in the form of parameters and performs some task and may or may not return a value. 
+
+Views : Views in SQL are kind of virtual tables. A view also has rows and columns as they are in a real table in the database. We can create a view by selecting fields from one or more tables present in the database. A View can either have all the rows of a table or specific rows based on certain condition. In this article we will learn about creating , deleting and updating Views. 
+
+Functions : SQL server functions are pre-built actions that perform calculations, manipulate data, and return results. At the most fundamental level, these functions simplify complex queries and automate repetitive tasks. Common SQL functions include string, numeric, date/time, conditional, and aggregate functions.
